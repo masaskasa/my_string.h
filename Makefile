@@ -55,8 +55,3 @@ rebuild_memory_leaks:
 	make memory_leaks
 	make run_tests
 	make clean
-
-main:
-	gcc $(VER) main.c $(SRC) -o test #$(OPT)
-	./test
-	rm test
